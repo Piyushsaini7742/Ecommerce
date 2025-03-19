@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send("API is Running...");
 });
 
 app.use("/users", userRoutes);
